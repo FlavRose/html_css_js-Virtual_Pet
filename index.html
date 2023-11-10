@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tamagotchi" id="game-container">        
+        <div class="status">
+            <p>🍖HUNGER: <span id="hunger">50</span></p>
+            <p>🎈HAPPINESS: <span id="happiness">50</span></p>
+        </div>
+        <div class="emoji" id="emoji">😺</div>
+        <div class="actions">
+            <button id="feed">Feed</button>
+            <button id="pet">Pet</button>
+            <button id="walk">Walk</button>
+        </div>
+    </div>
+    <div id="game-over" class="hidden">
+        <h1>Game Over</h1>
+        <button id="play-again">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

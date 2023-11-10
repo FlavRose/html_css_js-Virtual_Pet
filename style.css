@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEF1FF;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tamagotchi {
+    box-sizing: border-box;
+    background-color:#D2DAFF;
+    border: 5px dashed #AAC4FF;
+    text-align: center;
+    padding: 20px;
+    width: 450px;
+}
+
+.status {
+    color: #FFC95F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.emoji {
+    margin: 30px;
+    font-size: 100px;
+}
+
+button {
+    font-size: large;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #B1B2FF;
+    color: #000;
+    border: 5px groove #B1B2FF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EEF1FF;
+    border: 5px groove #B1B2FF;
+    color: #fff;
+}
+
+#name {
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#game-over {
+    display: none;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #D2DAFF;
+    border: 5px dashed #AAC4FF;
+    margin: 10px;
+    padding: 20px;
+    width: 450px;
+}
+
+#game-over h1 {
+    font-size: 3rem;
+    color: #fff;
+    padding: 40px;
+}
+
+#play-again {
+    padding: 5px 10px;
+    margin-bottom: 50px;
+    font-size: large;
+    background-color: #B1B2FF;
+    color: #000;
+    border: 5px groove #B1B2FF;
+    cursor: pointer;
+}
+
+#play-again:hover {
+    background-color: #EEF1FF;
+    border: 5px groove #B1B2FF;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
